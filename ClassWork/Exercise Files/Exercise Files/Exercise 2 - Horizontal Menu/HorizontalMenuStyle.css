@@ -1,0 +1,16 @@
+#menu {
+  width: 300px;
+  padding: 0;
+  margin: 20px;
+}
+li{
+  background-color:black;
+
+}
+a {
+  color: #FFFFFF;
+}
+
+li{
+  display: inline;
+}

@@ -1,0 +1,17 @@
+#hello {
+       font-size: 30px;
+       font-weight: bold;
+}
+
+#box {
+     text-decoration: underline;
+     width: 100px;
+     text-align: center;
+     background-color: green;
+     border-bottom-style: dotted;
+     width: 5px;
+    }
+#fontchange {
+  font-family:cursive;
+  text-colour:green;
+}

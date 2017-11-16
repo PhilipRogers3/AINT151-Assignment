@@ -1,0 +1,24 @@
+
+p {
+  font-family:"sans-serif"
+  colour:green;
+}
+img {
+  width: 100px;
+}
+img{
+  border-style: dashed;
+  border-color: blue;
+}
+
+ul{
+  width:100px;
+}
+ul{
+  padding: 0px;
+   border-style: solid;
+   border-color: black
+}
+ul{
+  border: 1px solid black
+}
