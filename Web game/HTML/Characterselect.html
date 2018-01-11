@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Charcater Select</title>
+<script>
+
+function SubmitForm()
+{
+  localStorage.setItem("playername", document.getElementById("playername").value);
+  localStorage.setItem("Gender", document.getElementById("Gender").value);
+}
+
+
+</script>
+</head>
+<body>
+
+<h1>Please choose Your Character</h1>
+<form onsubmit="SubmitForm()" action="intro.html">
+  <input id="playername" type="Please put your name"/>
+  <select id= "Gender">
+    <option>Male</option>
+    <option>Female</option>
+  </select>
+  <input type="submit" />
+</form>
+
+</body>
+</html>
